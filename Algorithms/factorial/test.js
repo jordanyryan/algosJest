@@ -31,6 +31,6 @@ test('expects factorial of 4 to NOT be 120', () => {
 
 // test('memoization of factorial of 5 is still 120', () => {
 //     factorial = memoize(factorial)
-//     expect(typeof memoize(factorial(5))).toEqual(120);
+//     expect(factorial(5)).toEqual(120);
 // });
 
