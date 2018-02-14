@@ -7,7 +7,8 @@
 
 // Example
 
-const words = ['cherry', 'pineapple', 'melon', 'strawberry', 'raspberry'];
+const words1 = ['cherry', 'pineapple', 'melon', 'strawberry', 'raspberry'];
+const words2 = ['javascript', 'java', 'ruby', 'php', 'python', 'coffeescript'];
 
 // If the given word is the same as the one in the array, 
 // return that word.
@@ -34,4 +35,4 @@ const words = ['cherry', 'pineapple', 'melon', 'strawberry', 'raspberry'];
 function findSimilarWord(word, dictionaryWords) {
 }
 
-module.exports = findSimilarWord;
+module.exports = {findSimilarWord, words1, words2};
