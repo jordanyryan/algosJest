@@ -24,6 +24,25 @@
 // with rows numbered increasingly from bottom to top, 
 // and columns numbered increasingly from left to right,
 
+// Example 1 -
+// n = 5
+// qPos = [4,3]
+// obs = [[5,5], [4,2], [2,3]]
+// queensPossibleMoves(n, qPos, obs) => 10
+
+// Example 1 Explanation
+// 5 [[],  [3], [1], [4], [X]],
+// 4 [[],  [X], [Q], [5], [6]],
+// 3 [[],  [9], [2], [7], []],
+// 2 [[10],[],  [X], [],  [8]],
+// 1 [[],  [],  [],  [],  []]
+//    1     2    3    4    5
+
+// Q = the position of the queen
+// X = Obstacles
+// Numbers = all the possible positions the queen can move to 
+// Any position after an obstacle in a queens trajectory is not valid.
+
 function queensPossibleMoves(n, qPos, obs) {
 };
 
