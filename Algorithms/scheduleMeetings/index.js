@@ -25,4 +25,4 @@ const schedules =
 function scheduleMeetings(schedules, duration) {
 }
 
-module.exports = scheduleMeetings;
+module.exports = {scheduleMeetings, schedules};
