@@ -19,8 +19,13 @@ const schedules =
 // can last for the amount, duration, given where it does not overlap their current meetings
 // duration is given as a string in minutes
 
+// If no meeting is possible, return null.
+
 // Example 1 - 
 // scheduleMeetings(schedules, "60") => "12:15"
+
+// Example 2 -
+// scheduleMeetings(schedules, "90") => null
 
 function scheduleMeetings(schedules, duration) {
 }
